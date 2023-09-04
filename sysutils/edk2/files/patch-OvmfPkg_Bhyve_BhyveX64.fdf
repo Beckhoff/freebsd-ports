@@ -1,0 +1,10 @@
+--- OvmfPkg/Bhyve/BhyveX64.fdf.orig	2023-08-25 01:54:50 UTC
++++ OvmfPkg/Bhyve/BhyveX64.fdf
+@@ -220,6 +220,7 @@ INF  OvmfPkg/VirtioRngDxe/VirtioRng.inf
+ INF  OvmfPkg/VirtioBlkDxe/VirtioBlk.inf
+ INF  OvmfPkg/VirtioScsiDxe/VirtioScsi.inf
+ INF  OvmfPkg/VirtioRngDxe/VirtioRng.inf
++INF  OvmfPkg/PlatformGopPolicy/PlatformGopPolicy.inf
+ 
+ !if $(SECURE_BOOT_ENABLE) == TRUE
+   INF  SecurityPkg/VariableAuthenticated/SecureBootConfigDxe/SecureBootConfigDxe.inf
