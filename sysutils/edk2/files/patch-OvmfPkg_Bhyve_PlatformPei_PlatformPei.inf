@@ -1,0 +1,10 @@
+--- OvmfPkg/Bhyve/PlatformPei/PlatformPei.inf.orig	2023-08-25 01:54:50 UTC
++++ OvmfPkg/Bhyve/PlatformPei/PlatformPei.inf
+@@ -60,6 +60,7 @@
+   PeiServicesLib
+   PeiServicesTablePointerLib
+   PcdLib
++  QemuFwCfgLib
+   ResourcePublicationLib
+ 
+ [Pcd]
